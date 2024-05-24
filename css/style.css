@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: lightgrey;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0% auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.col-25{
+    width: 25%;
+    
+    background-color: rgb(169, 177, 10);
+    border: 1px dashed black;
+}
+
+.col-50{
+    width: 50%;
+    
+    background-color: rgb(169, 177, 10);
+    border: 1px dashed black;
+}
+
+.contenuto{
+    text-align: center;
+    
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.contenuto-login{
+    text-align: right;
+}
