@@ -113,3 +113,38 @@ ul li{
 }
 /* footer */
 
+.col-100-2{
+    width: 100%;
+    background-color: rgb(21, 181, 221);
+}
+
+.container-footer-1{
+    max-width: 800px;
+    margin: 0% auto;
+    padding: 15px; 
+
+}
+
+.bottone{
+    bottom: right;
+    padding: 10px;
+    border: 1px dashed black;
+    
+}
+
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+
+.logo{
+    text-align: left;
+    padding: 10px;
+    border: 1px dashed black;
+}
+
+footer{
+    border-top: 2px solid white;
+}
