@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* header */
 header{
     background-color: lightgrey;
 }
@@ -49,4 +50,40 @@ ul li{
 
 .contenuto-login{
     text-align: right;
+}
+/* main */
+.bg-blu{
+    background-color: blue;
+}
+
+.container-main-1{
+    max-width: 800px;
+    margin: 0% auto;
+    padding: 15px;
+    
+}
+
+.col-100 {
+    width: 100%;
+    background-color: rgb(255, 63, 95);
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.col-60{
+    width: 60%;
+    background-color: rgb(21, 181, 221);
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.col-40{
+    width: 40%;
+    background-color: rgb(252, 131, 151);
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.bg-gray{
+    background-color: gray;
 }
